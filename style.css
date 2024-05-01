@@ -4,7 +4,7 @@
 }
 
 html{
-    background-color: #6c3681;
+    background-color: #2a272b;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
 }
@@ -43,4 +43,19 @@ html{
 
 .social a:hover img{
     transform: translateY(-10px);
+}
+
+.button {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #131414; /* Button color */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #062b53; /* Hover color */
 }
